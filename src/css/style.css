@@ -1,0 +1,115 @@
+@import url(variaveis.css);
+
+body {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-family: var(tahoma);
+  background-color: var(--cor-verde);
+  color: var(--cor-branco);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, var(--cor-verde-dark) 0%, var(--cor-amarelo) 100%);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  margin: 1rem 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 1px 3px 8px var(--cor-preto);
+}
+
+.boxPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topTitle {
+  text-align: center;
+}
+
+.boxForm {
+  display: flex;
+}
+
+.boxForm input {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.btnPesquisar {
+  width: 40px;
+  height: 40px;
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--cor-verde), var(--cor-verde-dark));
+  color: var(--cor-branco);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.btnPesquisar:hover {
+  transform: scale(1.1) rotate(12deg);
+  background: linear-gradient(135deg, var(--cor-verde-dark), var(--cor-verde));
+}
+
+.btnPesquisar svg {
+  transition: transform 0.3s ease;
+}
+
+.btnPesquisar:hover svg {
+  transform: scale(1.2);
+}
+
+
+.btnPesquisar:hover {
+  background-color: var(--cor-verde-dark);
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.7rem;
+}
+
+.logotipoBR {
+  width: 130px;
+   box-shadow: 3px 3px 8px var(--cor-preto);
+  border-radius: 4px;
+}
+
+.bodyResult {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  background-color: var(--cor-page);
+  color: var(--cor-preto);
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin-bottom: 1.4rem;
+  box-shadow: 1px 3px 8px var(--cor-preto);
+}

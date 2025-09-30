@@ -1,0 +1,16 @@
+:root {
+
+    --cor-preto: #000000;
+    --cor-branco: #ffffff;
+    --cor-purple: #4a0067;
+    --cor-purple-pink: #8000b2;
+    --cor-verde: #008000;
+    --cor-verde-dark: #004600;
+    --cor-amarelo: #ffec00;
+    --cor-page:#065c03;
+
+    --font-tahoma: tahoma;
+
+}
+
+/* 1rem = 16 pixels */
